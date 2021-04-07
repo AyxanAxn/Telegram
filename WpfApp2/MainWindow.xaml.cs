@@ -20,11 +20,17 @@ namespace WpfApp2
     /// </summary>
     public partial class MainWindow : Window
     {
+           
         public MainWindow()
         {
             InitializeComponent();
 
+            Txtbox.Text = "";
             
+        }
+
+        private void TextBox_MouseDown(object sender, MouseButtonEventArgs e)
+        {
         }
     }
 }
